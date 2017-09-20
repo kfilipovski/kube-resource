@@ -1,0 +1,13 @@
+apiVersion: oracledx.com/v1
+kind: Resource
+metadata:
+  clusterName: ""
+  deletionGracePeriodSeconds: null
+  deletionTimestamp: null
+  labels:
+    mylabel: test
+  name: resource123
+  namespace: default
+spec:
+  bar: false
+  foo: demo-text
